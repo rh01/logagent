@@ -1,0 +1,28 @@
+
+2018/05/22 14:37:00.725 [D] initial success!
+2018/05/22 14:37:00.725 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
+2018/05/22 14:37:00.725 [D] init all success...
+2018/05/22 22:05:35.667 [D] initial success!
+2018/05/22 22:05:35.667 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
+2018/05/22 22:05:35.667 [D] init all success...
+2018/05/22 22:06:12.811 [D] initial success!
+2018/05/22 22:06:12.811 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
+2018/05/22 22:06:12.811 [D] init all success...
+2018/05/22 22:06:25.034 [D] initial success!
+2018/05/22 22:06:25.034 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
+2018/05/22 22:06:25.034 [D] init all success...
+2018/05/22 22:09:09.678 [D] initial success!
+2018/05/22 22:09:09.679 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
+2018/05/22 22:09:09.679 [D] init all success...
+2018/05/22 22:11:40.506 [D] initial success!
+2018/05/22 22:11:40.506 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
+2018/05/22 22:11:40.506 [D] init all success...
+2018/05/22 22:11:40.514 [D] read msg , topic: nginx_log
+2018/05/22 22:13:04.520 [D] initial success!
+2018/05/22 22:13:04.520 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
+2018/05/22 22:13:04.520 [D] init all success...
+2018/05/22 22:13:04.526 [D] read msg , topic: nginx_log
+2018/05/22 22:14:26.152 [D] initial success!
+2018/05/22 22:14:26.153 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
+2018/05/22 22:14:26.153 [D] init all success...
+2018/05/22 22:14:26.165 [D] read msg , topic: nginx_log
