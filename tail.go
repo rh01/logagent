@@ -9,9 +9,8 @@ import (
 )
 
 type CollectConf struct {
-	LogPath  string
-	Topic    string
-	ChanSize int
+	LogPath string
+	Topic   string
 }
 
 type TailObj struct {
@@ -19,14 +18,14 @@ type TailObj struct {
 	conf CollectConf
 }
 
-type TailObjMgr struct {
-	tailsObjs []*TailObj
-	msgChan   chan *TextMsg
-}
-
 type TextMsg struct {
 	Msg   string
 	Topic string
+}
+
+type TailObjMgr struct {
+	tailsObjs []*TailObj
+	msgChan   chan *TextMsg
 }
 
 var (
@@ -39,26 +38,29 @@ func GetOneLine() (msg *TextMsg) {
 	return
 }
 
-func InitTail(confs []CollectConf, chanSize int) (err error) {
+func InitTail(conf []CollectConf, chanSize int) (err error) {
 
-	// 容错处理
-	if len(confs) == 0 {
-		logs.Error("invaild config for log collect, conf:%v", confs)
-		return
-	}
 	// 初始化管道
 	tailObjMgr = &TailObjMgr{
 		msgChan: make(chan *TextMsg, chanSize),
 	}
-	for _, v := range confs {
+
+	// 容错处理
+	if len(conf) == 0 {
+		logs.Error("invaild config for log collect, conf:%v", conf)
+		return
+	}
+
+	for _, v := range conf {
 
 		obj := &TailObj{
 			conf: v,
 		}
 
 		tails, errTail := tail.TailFile(v.LogPath, tail.Config{
-			ReOpen:    true,
-			Follow:    true,
+			ReOpen: true,
+			Follow: true,
+			// Location:  &tail.SeekInfo{Offset: 0, Whence: 2},
 			MustExist: false,
 			Poll:      true,
 		})
@@ -95,7 +97,6 @@ func ReadFromTail(tailObj *TailObj) {
 			Topic: tailObj.conf.Topic,
 		}
 
-		//tailObjMgr := &TailObjMgr{}
 		tailObjMgr.msgChan <- textMsg
 		return
 	}

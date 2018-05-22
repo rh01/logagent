@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/astaxie/beego/logs"
 	"encoding/json"
 	"fmt"
+
+	"github.com/astaxie/beego/logs"
 )
 
 func convertLogLevel(level string) int {
@@ -16,14 +17,11 @@ func convertLogLevel(level string) int {
 		return logs.LevelWarn
 	case "trace":
 		return logs.LevelTrace
-	default:
-		return logs.LevelDebug
 	}
+	return logs.LevelDebug
 }
 
-
-func InitLogger() (err error){
-
+func InitLogger() (err error) {
 
 	config := make(map[string]interface{})
 	config["filename"] = AppConfig.LogPath

@@ -12,17 +12,15 @@ func main() {
 	filename := "./conf/logcollect.conf"
 	err := LoadConf("ini", filename)
 	if err != nil {
-		fmt.Println("load conf failed, err: %v", err)
-		panic(err)
-		return
+		fmt.Printf("load conf failed, err: %v\n", err)
+		panic("load conf failed")
 	}
 
 	//初始化配置
 	err = InitLogger()
 	if err != nil {
-		fmt.Println("load conf failed, err: %v", err)
+		fmt.Printf("load conf failed, err: %v\n", err)
 		panic(err)
-		return
 	}
 
 	logs.Debug("initial success!")
@@ -33,8 +31,7 @@ func main() {
 	err = InitTail(AppConfig.collectConf, AppConfig.ChanSize)
 	if err != nil {
 		logs.Error("init tail failed, error %v", err)
-		//fmt.Println("init tail failed, err %v", err)
-		return
+
 	}
 
 	logs.Debug("init all success...")
@@ -43,7 +40,6 @@ func main() {
 	err = ServerRun()
 	if err != nil {
 		logs.Error("server run failed ...")
-		return
 	}
 
 	logs.Info("program exited...")

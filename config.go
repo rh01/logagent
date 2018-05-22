@@ -14,19 +14,21 @@ var (
 type Config struct {
 	LogLevel string
 	LogPath  string
-	ChanSize int
 
+	ChanSize    int
 	collectConf []CollectConf
 }
 
 func LoadConf(confType, filename string) (err error) {
 
+	// 按照指定的格式读取配置文件
 	conf, err := config.NewConfig(confType, filename)
 	if err != nil {
-		fmt.Printf("new config failed, err:", err)
+		fmt.Printf("new config failed, err:%v\n", err)
 		return
 	}
 
+	// 获得配置文件的选项
 	AppConfig = &Config{}
 	AppConfig.LogLevel = conf.String("logs::log_level")
 	if len(AppConfig.LogLevel) == 0 {
@@ -40,15 +42,13 @@ func LoadConf(confType, filename string) (err error) {
 
 	// 队列大小，或者管道大小
 	AppConfig.ChanSize, err = conf.Int("collect::chan_size")
-
 	if err != nil {
 		AppConfig.ChanSize = 100
 	}
 
 	err = LoadCollectConf(conf)
 	if err != nil {
-		fmt.Printf("load collect conf failed, err %v", err)
-		panic(err)
+		fmt.Printf("load collect conf failed, err %v\n", err)
 		return
 	}
 

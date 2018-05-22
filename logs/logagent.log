@@ -1,28 +1,24 @@
 
-2018/05/22 14:37:00.725 [D] initial success!
-2018/05/22 14:37:00.725 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
-2018/05/22 14:37:00.725 [D] init all success...
-2018/05/22 22:05:35.667 [D] initial success!
-2018/05/22 22:05:35.667 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
-2018/05/22 22:05:35.667 [D] init all success...
-2018/05/22 22:06:12.811 [D] initial success!
-2018/05/22 22:06:12.811 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
-2018/05/22 22:06:12.811 [D] init all success...
-2018/05/22 22:06:25.034 [D] initial success!
-2018/05/22 22:06:25.034 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
-2018/05/22 22:06:25.034 [D] init all success...
-2018/05/22 22:09:09.678 [D] initial success!
-2018/05/22 22:09:09.679 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
-2018/05/22 22:09:09.679 [D] init all success...
-2018/05/22 22:11:40.506 [D] initial success!
-2018/05/22 22:11:40.506 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
-2018/05/22 22:11:40.506 [D] init all success...
-2018/05/22 22:11:40.514 [D] read msg , topic: nginx_log
-2018/05/22 22:13:04.520 [D] initial success!
-2018/05/22 22:13:04.520 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
-2018/05/22 22:13:04.520 [D] init all success...
-2018/05/22 22:13:04.526 [D] read msg , topic: nginx_log
-2018/05/22 22:14:26.152 [D] initial success!
-2018/05/22 22:14:26.153 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/logagent.log nginx_log 0}]}
-2018/05/22 22:14:26.153 [D] init all success...
-2018/05/22 22:14:26.165 [D] read msg , topic: nginx_log
+2018/05/22 22:43:58.321 [D] initial success!
+2018/05/22 22:43:58.321 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/log.log nginx_log}]}
+2018/05/22 22:43:58.321 [D] init all success...
+2018/05/22 22:43:58.321 [D] read msg sdfsdfsdf
+, topic: nginx_log
+2018/05/22 22:44:38.674 [D] initial success!
+2018/05/22 22:44:38.675 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/log.log nginx_log}]}
+2018/05/22 22:44:38.675 [D] init all success...
+2018/05/22 22:44:38.677 [D] read msg sdfsdfsdf
+, topic: nginx_log
+2018/05/22 22:44:53.314 [D] initial success!
+2018/05/22 22:44:53.314 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/log.log nginx_log}]}
+2018/05/22 22:44:53.314 [D] init all success...
+2018/05/22 22:44:53.314 [D] read msg sdfsdfsdf
+, topic: nginx_log
+dfvdfgvdf2018/05/22 22:46:49.066 [D] initial success!
+2018/05/22 22:46:49.066 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/log.log nginx_log}]}
+2018/05/22 22:46:49.066 [D] init all success...
+2018/05/22 22:47:01.624 [D] read msg 
+, topic: nginx_log
+dcsfds 2018/05/22 22:48:32.586 [D] initial success!
+2018/05/22 22:48:32.586 [D] logs filename: &{debug ./logs/logagent.log 100 [{./logs/log.log nginx_log}]}
+2018/05/22 22:48:32.586 [D] init all success...
