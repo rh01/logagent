@@ -1,0 +1,3 @@
+# logagent
+
+logagent是一个golang编写的日志手机客户端，利用etcd，kafka，ES和golang底层的日志库来编写的，是一个高并发，高容错的分布式日志收集系统
