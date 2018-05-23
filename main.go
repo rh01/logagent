@@ -36,6 +36,15 @@ func main() {
 
 	logs.Debug("init all success...")
 
+	/*go func() {
+		var count int
+		for {
+			logs.Debug("test for logger %d", count)
+			count++
+			time.Sleep(time.Millisecond * 10)
+		}
+	}()*/
+
 	// 真正的业务逻辑处理函数
 	err = ServerRun()
 	if err != nil {

@@ -57,19 +57,17 @@ func InitTail(conf []CollectConf, chanSize int) (err error) {
 			conf: v,
 		}
 
-		tails, errTail := tail.TailFile(v.LogPath, tail.Config{
-			ReOpen: true,
-			Follow: true,
-			// Location:  &tail.SeekInfo{Offset: 0, Whence: 2},
+		tails, tailError := tail.TailFile(v.LogPath, tail.Config{
+			ReOpen:    true,
+			Follow:    true,
 			MustExist: false,
 			Poll:      true,
 		})
 
-		if errTail != nil {
+		if tailError != nil {
 
-			log.Errorf("tailf occurs errors, error: %v", err)
-
-			return
+			log.Errorf("tailf occurs errors, error: %v", tailError)
+			return tailError
 		}
 
 		obj.tail = tails
@@ -88,7 +86,7 @@ func ReadFromTail(tailObj *TailObj) {
 		line, ok := <-tailObj.tail.Lines
 		if !ok {
 			logs.Warn("tail file close reopen, filename:%s\n", tailObj.tail.Filename)
-			time.Sleep(100 * time.Millisecond)
+			time.Sleep(1000 * time.Millisecond)
 			continue
 		}
 
@@ -98,6 +96,6 @@ func ReadFromTail(tailObj *TailObj) {
 		}
 
 		tailObjMgr.msgChan <- textMsg
-		return
+
 	}
 }
