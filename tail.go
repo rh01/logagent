@@ -60,6 +60,7 @@ func InitTail(conf []CollectConf, chanSize int) (err error) {
 		tails, tailError := tail.TailFile(v.LogPath, tail.Config{
 			ReOpen:    true,
 			Follow:    true,
+			Location:  &tail.SeekInfo{Offset: 0, Whence: 2},
 			MustExist: false,
 			Poll:      true,
 		})
