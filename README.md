@@ -18,9 +18,7 @@ logagent是一个golang编写的高并发，高容错的分布式日志收集系
 架构
 ----------
 
-<div align=center>
 ![ "架构图"](./images/logagent_arch.png)
-</div>
 
 
 - Log Agent，日志收集客户端，用来收集服务器上的日志
@@ -29,11 +27,9 @@ logagent是一个golang编写的高并发，高容错的分布式日志收集系
 - Hadoop，分布式计算框架，能够对大量数据进行分布式处理的平台
 
 
-<div align=center>
 ![ "软件架构图"](./images/logagent_design.png)
 
 !["日志收集流程图"](./images/logagent.png )
-</div>
 
 
 tail实例代码
