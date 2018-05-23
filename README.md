@@ -17,7 +17,7 @@ logagent是一个golang编写的高并发，高容错的分布式日志收集系
 
 架构
 ----------
-![./images/logagent_arch.png "架构图"]
+![ "架构图"](./images/logagent_arch.png)
 
 - Log Agent，日志收集客户端，用来收集服务器上的日志
 - Kafka，高吞吐量的分布式队列，linkin开发，apache顶级开源项目
@@ -26,9 +26,9 @@ logagent是一个golang编写的高并发，高容错的分布式日志收集系
 
 
 
-![./images/logagent_design.png "软件架构图"]
+![ "软件架构图"](./images/logagent_design.png)
 
-![./images/logagent.png "日志收集流程图"]
+!["日志收集流程图"](./images/logagent.png )
 
 tail实例代码
 ------------
