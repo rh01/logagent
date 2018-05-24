@@ -3,7 +3,7 @@ logagent
 
 logagent是一个golang编写的高并发，高容错的分布式日志收集系统，关键技术有
 
-- etcd [TODO]
+- etcd [FINISHED]
 - kafka [FINISHED]
 - ES
 - golang底层的日志库 [FINISHED]
