@@ -18,6 +18,9 @@ type Config struct {
 	ChanSize    int
 	kafkaAddr   string
 	collectConf []CollectConf
+
+	etcdAddrr string
+	configKey string
 }
 
 func LoadConf(confType, filename string) (err error) {
@@ -53,6 +56,20 @@ func LoadConf(confType, filename string) (err error) {
 		err = fmt.Errorf("invalid kafka addr")
 		return
 		//AppConfig.kafkaAddr = "172.24.1.1"
+	}
+
+	// etcd 地址匹配值
+	AppConfig.etcdAddrr = conf.String("etcd::addr")
+	if len(AppConfig.etcdAddrr) == 0 {
+		err = fmt.Errorf("invalid etcd addr")
+		return
+	}
+
+	// etcd  config key
+	AppConfig.configKey = conf.String("etcd::configKey")
+	if len(AppConfig.configKey) == 0 {
+		err = fmt.Errorf("invalid etcd configKey")
+		return
 	}
 
 	err = LoadCollectConf(conf)
