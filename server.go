@@ -4,6 +4,7 @@ import (
 	"time"
 	"./kafka"
 	"github.com/astaxie/beego/logs"
+	"fmt"
 )
 
 func ServerRun() (err error) {
@@ -20,6 +21,8 @@ func ServerRun() (err error) {
 }
 
 func sendToKafka(msg *TextMsg) (err error) {
+	textMsg := msg
+	fmt.Printf("read topic:%s,msg:%v\n", textMsg.Topic, textMsg.Msg)
 	err = kafka.SendTOKafka(msg.Msg, msg.Topic)
 
 	return

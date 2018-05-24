@@ -1,18 +1,162 @@
-2018/05/24 17:18:10.569 [D] initial success!
-2018/05/24 17:18:10.569 [D] logs filename: &{debug ./logs/logagent.log 100 172.24.1.1:9092 [{./logs/logagent.log nginx_log}] 172.24.1.56:2379 /oldboy/backend/logagent/config}
-2018/05/24 17:18:10.585 [D] init kafka success ...
-2018/05/24 17:18:11.596 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.598 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.599 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.600 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.601 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.602 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.604 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.605 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.606 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.607 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.609 [D] resp from etcd, resp: [key:"/oldboy/backend/logagent/config/172.24.1.56" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/access.log\",\"topic\":\"nginx_log\"},{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
-2018/05/24 17:18:11.609 [D] log config is [{C:/Users/Shine/Desktop/logagent/logs/access.log nginx_log} {C:/Users/Shine/Desktop/logagent/logs/error.log nginx_log_err}]
-2018/05/24 17:18:11.610 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.611 [D] resp from etcd, resp: []
-2018/05/24 17:18:11.611 [D] init all success...
+2018/05/24 17:34:32.248 [D] initial success!
+2018/05/24 17:34:32.249 [D] logs filename: &{debug ./logs/logagent.log 100 172.24.1.1:9092 [{./logs/logagent.log nginx_log}] 172.24.1.56:2379 /oldboy/backend/logagent/config}
+2018/05/24 17:34:32.268 [D] init kafka success ...
+2018/05/24 17:34:33.279 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.280 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.282 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.283 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.284 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.285 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.286 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.287 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.289 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.290 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.292 [D] resp from etcd, resp: [key:"/oldboy/backend/logagent/config/172.24.1.56" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/access.log\",\"topic\":\"nginx_log\"},{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/05/24 17:34:33.292 [D] log config is [{C:/Users/Shine/Desktop/logagent/logs/access.log nginx_log} {C:/Users/Shine/Desktop/logagent/logs/error.log nginx_log_err}]
+2018/05/24 17:34:33.293 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.294 [D] resp from etcd, resp: []
+2018/05/24 17:34:33.294 [D] init all success...
+2018/05/24 17:38:14.088 [D] initial success!
+2018/05/24 17:38:14.088 [D] logs filename: &{debug ./logs/logagent.log 100 172.24.1.1:9092 [{./logs/logagent.log nginx_log}] 172.24.1.56:2379 /oldboy/backend/logagent/config}
+2018/05/24 17:38:14.105 [D] init kafka success ...
+2018/05/24 17:38:15.117 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.118 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.120 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.121 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.121 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.122 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.122 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.123 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.123 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.124 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.125 [D] resp from etcd, resp: [key:"/oldboy/backend/logagent/config/172.24.1.56" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/access.log\",\"topic\":\"nginx_log\"},{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/05/24 17:38:15.125 [D] log config is [{C:/Users/Shine/Desktop/logagent/logs/access.log nginx_log} {C:/Users/Shine/Desktop/logagent/logs/error.log nginx_log_err}]
+2018/05/24 17:38:15.126 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.126 [D] resp from etcd, resp: []
+2018/05/24 17:38:15.126 [D] init all success...
+2018/05/24 17:41:11.404 [D] initial success!
+2018/05/24 17:41:11.404 [D] logs filename: &{debug ./logs/logagent.log 100 172.24.1.1:9092 [{./logs/logagent.log nginx_log}] 172.24.1.56:2379 /oldboy/backend/logagent/config}
+2018/05/24 17:41:11.420 [D] init kafka success ...
+2018/05/24 17:41:12.430 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.430 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.431 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.431 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.432 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.433 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.433 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.434 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.434 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.435 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.436 [D] resp from etcd, resp: [key:"/oldboy/backend/logagent/config/172.24.1.56" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/access.log\",\"topic\":\"nginx_log\"},{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/05/24 17:41:12.436 [D] log config is [{C:/Users/Shine/Desktop/logagent/logs/access.log nginx_log} {C:/Users/Shine/Desktop/logagent/logs/error.log nginx_log_err}]
+2018/05/24 17:41:12.437 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.437 [D] resp from etcd, resp: []
+2018/05/24 17:41:12.438 [D] init all success...
+2018/05/24 17:42:38.584 [D] initial success!
+2018/05/24 17:42:38.584 [D] logs filename: &{debug ./logs/logagent.log 100 172.24.1.1:9092 [{./logs/logagent.log nginx_log}] 172.24.1.56:2379 /oldboy/backend/logagent/config}
+2018/05/24 17:42:38.610 [D] init kafka success ...
+2018/05/24 17:42:39.618 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.618 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.619 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.619 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.620 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.620 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.621 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.622 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.622 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.623 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.624 [D] resp from etcd, resp: [key:"/oldboy/backend/logagent/config/172.24.1.56" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/access.log\",\"topic\":\"nginx_log\"},{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/05/24 17:42:39.624 [D] log config is [{C:/Users/Shine/Desktop/logagent/logs/access.log nginx_log} {C:/Users/Shine/Desktop/logagent/logs/error.log nginx_log_err}]
+2018/05/24 17:42:39.624 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.625 [D] resp from etcd, resp: []
+2018/05/24 17:42:39.625 [D] init all success...
+2018/05/24 17:44:08.698 [D] initial success!
+2018/05/24 17:44:08.699 [D] logs filename: &{debug ./logs/logagent.log 100 172.24.1.1:9092 [{./logs/logagent.log nginx_log}] 172.24.1.56:2379 /oldboy/backend/logagent/config}
+2018/05/24 17:44:08.752 [D] init kafka success ...
+2018/05/24 17:44:09.761 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.761 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.761 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.762 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.762 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.762 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.763 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.763 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.763 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.764 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.764 [D] resp from etcd, resp: [key:"/oldboy/backend/logagent/config/172.24.1.56" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/access.log\",\"topic\":\"nginx_log\"},{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/05/24 17:44:09.764 [D] log config is [{C:/Users/Shine/Desktop/logagent/logs/access.log nginx_log} {C:/Users/Shine/Desktop/logagent/logs/error.log nginx_log_err}]
+2018/05/24 17:44:09.765 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.765 [D] resp from etcd, resp: []
+2018/05/24 17:44:09.765 [D] init all success...
+2018/05/24 17:45:02.304 [D] initial success!
+2018/05/24 17:45:02.304 [D] logs filename: &{debug ./logs/logagent.log 100 172.24.1.1:9092 [{./logs/logagent.log nginx_log}] 172.24.1.56:2379 /oldboy/backend/logagent/config}
+2018/05/24 17:45:02.324 [D] init kafka success ...
+2018/05/24 17:45:03.335 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.336 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.337 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.338 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.339 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.340 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.341 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.342 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.343 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.344 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.346 [D] resp from etcd, resp: [key:"/oldboy/backend/logagent/config/172.24.1.56" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/access.log\",\"topic\":\"nginx_log\"},{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/05/24 17:45:03.346 [D] log config is [{C:/Users/Shine/Desktop/logagent/logs/access.log nginx_log} {C:/Users/Shine/Desktop/logagent/logs/error.log nginx_log_err}]
+2018/05/24 17:45:03.347 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.348 [D] resp from etcd, resp: []
+2018/05/24 17:45:03.348 [D] init all success...
+2018/05/24 17:46:19.121 [D] initial success!
+2018/05/24 17:46:19.121 [D] logs filename: &{debug ./logs/logagent.log 100 172.24.1.1:9092 [{./logs/logagent.log nginx_log}] 172.24.1.56:2379 /oldboy/backend/logagent/config}
+2018/05/24 17:46:19.225 [D] init kafka success ...
+2018/05/24 17:46:20.234 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.235 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.235 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.235 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.236 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.236 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.237 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.237 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.237 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.238 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.238 [D] resp from etcd, resp: [key:"/oldboy/backend/logagent/config/172.24.1.56" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/access.log\",\"topic\":\"nginx_log\"},{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/05/24 17:46:20.238 [D] log config is [{C:/Users/Shine/Desktop/logagent/logs/access.log nginx_log} {C:/Users/Shine/Desktop/logagent/logs/error.log nginx_log_err}]
+2018/05/24 17:46:20.239 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.239 [D] resp from etcd, resp: []
+2018/05/24 17:46:20.239 [D] init all success...
+2018/05/24 17:50:03.827 [D] initial success!
+2018/05/24 17:50:03.827 [D] logs filename: &{debug ./logs/logagent.log 100 172.24.1.1:9092 [{./logs/logagent.log nginx_log}] 172.24.1.56:2379 /oldboy/backend/logagent/config}
+2018/05/24 17:50:03.855 [D] init kafka success ...
+2018/05/24 17:50:04.867 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.868 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.869 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.870 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.871 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.872 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.873 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.874 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.875 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.876 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.877 [D] resp from etcd, resp: [key:"/oldboy/backend/logagent/config/172.24.1.56" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/access.log\",\"topic\":\"nginx_log\"},{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/05/24 17:50:04.878 [D] log config is [{C:/Users/Shine/Desktop/logagent/logs/access.log nginx_log} {C:/Users/Shine/Desktop/logagent/logs/error.log nginx_log_err}]
+2018/05/24 17:50:04.879 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.880 [D] resp from etcd, resp: []
+2018/05/24 17:50:04.880 [D] init all success...
+2018/05/24 17:52:44.163 [D] initial success!
+2018/05/24 17:52:44.163 [D] logs filename: &{debug ./logs/logagent.log 100 172.24.1.1:9092 [{./logs/logagent.log nginx_log}] 172.24.1.56:2379 /oldboy/backend/logagent/config}
+2018/05/24 17:52:44.179 [D] init kafka success ...
+2018/05/24 17:52:45.187 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.188 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.188 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.189 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.189 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.190 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.191 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.191 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.192 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.192 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.193 [D] resp from etcd, resp: [key:"/oldboy/backend/logagent/config/172.24.1.56" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/access.log\",\"topic\":\"nginx_log\"},{\"path\":\"C:/Users/Shine/Desktop/logagent/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/05/24 17:52:45.194 [D] log config is [{C:/Users/Shine/Desktop/logagent/logs/access.log nginx_log} {C:/Users/Shine/Desktop/logagent/logs/error.log nginx_log_err}]
+2018/05/24 17:52:45.194 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.195 [D] resp from etcd, resp: []
+2018/05/24 17:52:45.195 [D] init all success...

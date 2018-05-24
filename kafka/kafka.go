@@ -38,13 +38,13 @@ func SendTOKafka(data, topic string) (err error) {
 	msg.Value = sarama.StringEncoder(data)
 
 
-	pid, offset, err := client.SendMessage(msg)
+	_, _, err = client.SendMessage(msg)
 	if err != nil {
 		logs.Error("send message failed, err:%v, data:%v, topic:%v", err,data,topic)
 		return
 	}
 
-	logs.Debug("send success, pid %v, offset:%v, topic %v", pid, offset, topic)
+	//logs.Debug("send success, pid %v, offset:%v, topic %v", pid, offset, topic)
 	return
 
 }
