@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/astaxie/beego/logs"
-	"./kafka"
+	"github.com/rh01/logagent/kafka"
 )
 
 func main() {

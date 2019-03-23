@@ -2,7 +2,7 @@ package main
 
 import (
 	"time"
-	"./kafka"
+	"github.com/rh01/logagent/kafka"
 	"github.com/astaxie/beego/logs"
 	"fmt"
 )
